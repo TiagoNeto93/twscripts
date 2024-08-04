@@ -11,7 +11,7 @@ var allWoodObjects, allClayObjects, allIronObjects, allVillages;
 var totalsAndAverages = "";
 var data, totalWood = 0, totalStone = 0, totalIron = 0, resLimit = 0;
 var sendBack;
-var totalWoodSent = 0; totalStoneSent = 0; totalIronSent = 0;
+var totalWoodSent = 0, totalStoneSent = 0, totalIronSent = 0;
 if (typeof woodPercentage == 'undefined') {
     woodPercentage = 28000 / 83000;
     stonePercentage = 30000 / 83000;
